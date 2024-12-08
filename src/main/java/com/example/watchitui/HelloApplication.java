@@ -21,6 +21,7 @@ public class HelloApplication extends Application {
         stage.setTitle("Watch it");
         stage.setScene(scene);
         stage.show();
+        MoviePopupController.setScene(scene);
     }
 
     public void goToMovieDetails(Movie selectedMovie, ActionEvent event) throws IOException {
